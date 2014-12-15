@@ -1,17 +1,17 @@
 {
-    "name": "yiisoft/yii2-opencart",
+    "name": "opencart/yii2-opencart",
 
     "type": "yii2-extension",
 
-    "description": "The Imagine integration for the Yii framework",
-    "keywords": ["yii2", "imagine", "image", "helper"],
+    "description": "The opencart lib for my project, please do not download it",
+    "keywords": ["yii2", "opencart", "library", "helper"],
     "license": "BSD-3-Clause",
     "support": {
         "issues": "https://github.com/yiisoft/yii2/issues?labels=ext%3Aimagine",
         "forum": "http://www.yiiframework.com/forum/",
         "wiki": "http://www.yiiframework.com/wiki/",
         "irc": "irc://irc.freenode.net/yii",
-        "source": "https://github.com/yiisoft/yii2"
+        "source": "https://github.com/viethung09/opencart"
     },
     "authors": [
         {
@@ -22,12 +22,14 @@
 
     "require": {
         "yiisoft/yii2": "*",
-        "opencart/opencart": "2.0"
+        "php": ">=5.3.19",
+        "opencart/opencart": "*"
     },
 
     "autoload": {
         "psr-4": {
-            "yii\\opencart\\": ""
+            "opencart\\system\\": "",
+            "classmap": ["library/"]
         }
     }
 }
