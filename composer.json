@@ -13,6 +13,7 @@
         "irc": "irc://irc.freenode.net/yii",
         "source": "https://github.com/viethung09/opencart"
     },
+    "minimum-stability": "dev",
     "authors": [
         {
             "name": "Hung",
@@ -22,8 +23,6 @@
 
     "require": {
         "yiisoft/yii2": "*",
-        "php": ">=5.3.19",
-        "opencart/opencart": "*"
     },
 
     "autoload": {
