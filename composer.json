@@ -1,8 +1,6 @@
 {
-    // package name
-    "name": "yiisoft/yii2-imagine",
+    "name": "yiisoft/yii2-opencart",
 
-    // package type
     "type": "yii2-extension",
 
     "description": "The Imagine integration for the Yii framework",
@@ -13,25 +11,23 @@
         "forum": "http://www.yiiframework.com/forum/",
         "wiki": "http://www.yiiframework.com/wiki/",
         "irc": "irc://irc.freenode.net/yii",
-        "source": "https://github.com/yiisoft/yii2"
+        "source": "https://github.com/viethung09/opencart"
     },
     "authors": [
         {
-            "name": "Antonio Ramirez",
-            "email": "amigo.cobos@gmail.com"
+            "name": "Hung",
+            "email": "viethung097@gmail.com"
         }
     ],
 
-    // package dependencies
     "require": {
         "yiisoft/yii2": "*",
-        "imagine/imagine": "v0.5.0"
+        "opencart/opencart": "2.0"
     },
 
-    // class autoloading specs
     "autoload": {
         "psr-4": {
-            "yii\\imagine\\": ""
+            "yii\\opencart\\": ""
         }
     }
 }
