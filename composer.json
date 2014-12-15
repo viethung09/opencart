@@ -28,9 +28,9 @@
 
     "autoload": {
         "psr-4": {
-            "opencart\\": "",
-            "classmap": ["library/"]
-        }
+            "opencart\\": ""
+        },
+        "classmap": ["library/"]
     },
      "extra": {
         "bootstrap": "opencart\\Bootstrap"
